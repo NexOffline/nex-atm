@@ -18,5 +18,5 @@ Showcase: https://youtu.be/UOdiVaeqRCM
 
 **CREDITS:**
 -----------------
-Gubner: https://github.com/Gubner/decrypto/tree/main (For giving me a base to work off of) 
-Skeletonnetworks: SN-Hacking: https://github.com/skeletonnetworks/SN-Hacking (Providing the minigames used) 
+- Gubner: https://github.com/Gubner/decrypto/tree/main (For giving me a base to work off of) 
+- SN-Hacking: https://github.com/skeletonnetworks/SN-Hacking (Providing the minigames used) 
