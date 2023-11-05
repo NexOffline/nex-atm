@@ -1,5 +1,5 @@
 # nex-atm
-Prodigy inspired ATM Robbery using the skeletonnetworks prodigy rp based hack minigames! 
+Prodigy inspired ATM Robbery using skeletonnetworks prodigy rp based hack minigames! 
 
 Showcase: https://youtu.be/UOdiVaeqRCM
 
