@@ -16,3 +16,7 @@ Showcase: https://youtu.be/UOdiVaeqRCM
 - A way to drill the ATM 
 - item rewards instead of just cash
 
+**CREDITS:**
+-----------------
+Gubner: https://github.com/Gubner/decrypto/tree/main (For giving me a base to work off of) 
+SN-Hacking: https://github.com/skeletonnetworks/SN-Hacking (Providing the minigames used) 
