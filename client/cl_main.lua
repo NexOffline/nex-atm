@@ -6,8 +6,8 @@ local Hacked = {}
 exports['qb-target']:AddTargetModel(Config.ATMModels, {
 	options = {
 		{
-			type = "client",
-			event = "nex:client:starthack",
+			type = "server",
+			event = "nex:server:startrobbery",
 			icon = "fas fa-piggy-bank",
 			label = "Hack ATM",
 			item = Config.HackDeviceItem,
@@ -15,6 +15,7 @@ exports['qb-target']:AddTargetModel(Config.ATMModels, {
 	},
 	distance = 1.5
 })
+
 
 RegisterNetEvent('nex:client:starthack')
 AddEventHandler('nex:client:starthack', function()

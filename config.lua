@@ -31,3 +31,6 @@ Config.ThermiteShowtime = 3000 -- How long players have to look at the boxes bef
 
 Config.HackDeviceInsertTIme = 15000 -- How long it takes the progress bar before finishing while inserting the hack device (milliseconds)
 Config.PayoutTime = 7000 -- How long it takes the progress bar before finishing while grabbing the money (milliseconds)
+
+-- Cooldown
+Config.Cooldown = 1 -- How many minutes should players have to wait before being able to rob another ATM (Global)
