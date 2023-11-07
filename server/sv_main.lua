@@ -21,18 +21,17 @@ end)
 
 RegisterNetEvent('nex:server:startrobbery')
 AddEventHandler('nex:server:startrobbery', function()
-	local src = source
-	local Player = QBCore.Functions.GetPlayer(src)
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
 
-	if not OnCooldown then
-		TriggerClientEvent('nex:client:starthack', src)
-	OnCooldown = true
-	local timer = Config.Cooldown * (60 * 1000)
-        if timer == 0 then
-			OnCooldown = false	
-		end
-	else 
-		TriggerClientEvent('QBCore:Notify', src, "Security defenses are currently too high to hack...", "error")
-	end
+    if not OnCooldown then
+        TriggerClientEvent('nex:client:starthack', src)
+    OnCooldown = true
+        Citizen.SetTimeout(Config.Cooldown * (1000 * 60), function()
+            OnCooldown = false
+        end)
+    else 
+        TriggerClientEvent('QBCore:Notify', src, "Security defenses are currently too high to hack...", "error")
+    end
 
 end) 
