@@ -8,7 +8,7 @@ https://youtu.be/UOdiVaeqRCM
 
 - qb-inventory (or one of it's many re-skins (eg. ps-inventory, lj-inventory))
 - qb-target 
-- SN-Hacking https://github.com/skeletonnetworks/SN-Hacking
+- [SN-Hacking](https://github.com/skeletonnetworks/SN-Hacking)
 
 ## Planned Updates:
 
